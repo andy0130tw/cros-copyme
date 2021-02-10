@@ -2,7 +2,9 @@
 
 Given a string from stdin, copy it into the clipboard of the Chrome OS, automatically.
 
-Yeah I can't find any workarounds on the internet since Chrome OS 81 and it has been broken as of v88. So I write it on my own. Issues & PRs are welcome.
+~~Yeah I can't find any workarounds on the internet since Chrome OS 81 and it has been broken as of v88.~~ So I write it on my own. Issues & PRs are welcome.
+
+> Update (2021/2/10): The latest [`wl-copy`](https://github.com/bugaevc/wl-clipboard) works fine. Don't install the default one in the Debian repository. Please refer to this reddit thread: https://www.reddit.com/r/Crostini/comments/let418/i_made_a_program_for_copying_strings_in_crostini/. 
 
 Dependency: GTK 3.
 
